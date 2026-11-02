@@ -1,0 +1,282 @@
+{
+  "snapshot_date": "2026-11-02",
+  "repository": "kaikwanlau/PhyloSDF",
+  "stl_count": 7305,
+  "total_stl_bytes": 65903470720,
+  "collections": [
+    {
+      "id": "reference-inputs",
+      "label": "Reference inputs",
+      "count": 100,
+      "bytes": 29041600,
+      "pages": 1
+    },
+    {
+      "id": "primary",
+      "label": "Primary experiments",
+      "count": 2142,
+      "bytes": 20436165928,
+      "pages": 11
+    },
+    {
+      "id": "dated-tree",
+      "label": "Dated-tree comparison",
+      "count": 1639,
+      "bytes": 15595700976,
+      "pages": 9
+    },
+    {
+      "id": "controlled",
+      "label": "Controlled comparisons",
+      "count": 1353,
+      "bytes": 12431357952,
+      "pages": 7
+    },
+    {
+      "id": "downstream",
+      "label": "Downstream comparisons",
+      "count": 480,
+      "bytes": 4351178120,
+      "pages": 3
+    },
+    {
+      "id": "legacy-cfm",
+      "label": "Legacy CFM",
+      "count": 780,
+      "bytes": 6209465320,
+      "pages": 4
+    },
+    {
+      "id": "legacy-gmm",
+      "label": "Legacy GMM",
+      "count": 780,
+      "bytes": 6770665620,
+      "pages": 4
+    },
+    {
+      "id": "interpolation",
+      "label": "Interpolation",
+      "count": 31,
+      "bytes": 79895204,
+      "pages": 1
+    }
+  ],
+  "releases": [
+    {
+      "id": 430690665,
+      "tag": "skull-meshes-v1-20261027-reference-inputs-001",
+      "name": "reference-inputs 1",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-reference-inputs-001",
+      "published_at": "2026-11-02T10:42:41Z",
+      "updated_at": "2026-11-02T10:42:41Z",
+      "stl_count": 100,
+      "total_stl_bytes": 29041600,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__3b1716311bb7d68b.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-reference-inputs-001/mesh_manifest__3b1716311bb7d68b.csv",
+          "sha256": "sha256:3b1716311bb7d68b18c1d5cbdf2214a6040d5a4c9c4f0239854219bc9156211e",
+          "size_bytes": 38000
+        }
+      ]
+    },
+    {
+      "id": 430690944,
+      "tag": "skull-meshes-v1-20261027-primary-003",
+      "name": "primary 3",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-primary-003",
+      "published_at": "2026-11-02T10:42:50Z",
+      "updated_at": "2026-11-02T10:42:50Z",
+      "stl_count": 342,
+      "total_stl_bytes": 3330263028,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__d0fbd212924bec9f.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-primary-003/mesh_manifest__d0fbd212924bec9f.csv",
+          "sha256": "sha256:d0fbd212924bec9f70c07057dc4a31220da54760dcc126df8fa26deff7ce63bc",
+          "size_bytes": 218058
+        }
+      ]
+    },
+    {
+      "id": 430690856,
+      "tag": "skull-meshes-v1-20261027-primary-002",
+      "name": "primary 2",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-primary-002",
+      "published_at": "2026-11-02T10:42:59Z",
+      "updated_at": "2026-11-02T10:42:59Z",
+      "stl_count": 900,
+      "total_stl_bytes": 8781872300,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__799faad4e77f1dc4.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-primary-002/mesh_manifest__799faad4e77f1dc4.csv",
+          "sha256": "sha256:799faad4e77f1dc4b9a44f4291d734f59e892b1fc53b15c3bd42f6b3f29f047c",
+          "size_bytes": 559632
+        }
+      ]
+    },
+    {
+      "id": 430690755,
+      "tag": "skull-meshes-v1-20261027-primary-001",
+      "name": "primary 1",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-primary-001",
+      "published_at": "2026-11-02T10:43:08Z",
+      "updated_at": "2026-11-02T10:43:08Z",
+      "stl_count": 900,
+      "total_stl_bytes": 8324030600,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__11fbcaa1507b5ac9.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-primary-001/mesh_manifest__11fbcaa1507b5ac9.csv",
+          "sha256": "sha256:11fbcaa1507b5ac954b7ea5c595f274ef286a9003c3c22c2c174423658c41e2e",
+          "size_bytes": 601204
+        }
+      ]
+    },
+    {
+      "id": 430691541,
+      "tag": "skull-meshes-v1-20261027-legacy-gmm-001",
+      "name": "legacy-gmm 1",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-legacy-gmm-001",
+      "published_at": "2026-11-02T10:43:17Z",
+      "updated_at": "2026-11-02T10:43:17Z",
+      "stl_count": 780,
+      "total_stl_bytes": 6770665620,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__bb51d3990d3e7819.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-legacy-gmm-001/mesh_manifest__bb51d3990d3e7819.csv",
+          "sha256": "sha256:bb51d3990d3e78192d4dcbd1d7fd2dbfe7c4d0bbeb1b9299d8a8eb44895ac016",
+          "size_bytes": 312656
+        }
+      ]
+    },
+    {
+      "id": 430691477,
+      "tag": "skull-meshes-v1-20261027-legacy-cfm-001",
+      "name": "legacy-cfm 1",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-legacy-cfm-001",
+      "published_at": "2026-11-02T10:43:26Z",
+      "updated_at": "2026-11-02T10:43:26Z",
+      "stl_count": 780,
+      "total_stl_bytes": 6209465320,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__cc6c3526c0cd88b6.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-legacy-cfm-001/mesh_manifest__cc6c3526c0cd88b6.csv",
+          "sha256": "sha256:cc6c3526c0cd88b614d48f6a99b88473370905babae9e5acd527107006a667f5",
+          "size_bytes": 312541
+        }
+      ]
+    },
+    {
+      "id": 430691613,
+      "tag": "skull-meshes-v1-20261027-interpolation-001",
+      "name": "interpolation 1",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-interpolation-001",
+      "published_at": "2026-11-02T10:43:35Z",
+      "updated_at": "2026-11-02T10:43:35Z",
+      "stl_count": 31,
+      "total_stl_bytes": 79895204,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__5be766c9e28cf5bc.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-interpolation-001/mesh_manifest__5be766c9e28cf5bc.csv",
+          "sha256": "sha256:5be766c9e28cf5bcba0e19cc08e8e1ca40d89dbedeeb47b4ab42833807cf05f4",
+          "size_bytes": 14903
+        }
+      ]
+    },
+    {
+      "id": 430691387,
+      "tag": "skull-meshes-v1-20261027-downstream-001",
+      "name": "downstream 1",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-downstream-001",
+      "published_at": "2026-11-02T10:43:44Z",
+      "updated_at": "2026-11-02T10:43:44Z",
+      "stl_count": 480,
+      "total_stl_bytes": 4351178120,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__4687fd79a26571b8.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-downstream-001/mesh_manifest__4687fd79a26571b8.csv",
+          "sha256": "sha256:4687fd79a26571b840dd586ba1b532c1e4e1a344ce761b3af0e9f6b2d0e25afb",
+          "size_bytes": 239788
+        }
+      ]
+    },
+    {
+      "id": 430691127,
+      "tag": "skull-meshes-v1-20261027-dated-tree-002",
+      "name": "dated-tree 2",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-dated-tree-002",
+      "published_at": "2026-11-02T10:43:53Z",
+      "updated_at": "2026-11-02T10:43:53Z",
+      "stl_count": 739,
+      "total_stl_bytes": 6970283476,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__aefb29381bb553b4.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-dated-tree-002/mesh_manifest__aefb29381bb553b4.csv",
+          "sha256": "sha256:aefb29381bb553b4b4e41a68112ed6326ff36409db560fc1f9d719fb545381e7",
+          "size_bytes": 415398
+        }
+      ]
+    },
+    {
+      "id": 430691048,
+      "tag": "skull-meshes-v1-20261027-dated-tree-001",
+      "name": "dated-tree 1",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-dated-tree-001",
+      "published_at": "2026-11-02T10:44:02Z",
+      "updated_at": "2026-11-02T10:44:02Z",
+      "stl_count": 900,
+      "total_stl_bytes": 8625417500,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__981fafa0bd2f6a6e.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-dated-tree-001/mesh_manifest__981fafa0bd2f6a6e.csv",
+          "sha256": "sha256:981fafa0bd2f6a6e0aeec14d04b3a2cf007157d3a0e28372ab4f22e077465d3a",
+          "size_bytes": 523836
+        }
+      ]
+    },
+    {
+      "id": 430691301,
+      "tag": "skull-meshes-v1-20261027-controlled-002",
+      "name": "controlled 2",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-controlled-002",
+      "published_at": "2026-11-02T10:44:11Z",
+      "updated_at": "2026-11-02T10:44:11Z",
+      "stl_count": 453,
+      "total_stl_bytes": 4223273352,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__88a945c712e85301.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-controlled-002/mesh_manifest__88a945c712e85301.csv",
+          "sha256": "sha256:88a945c712e85301718b6c02409fa6b3f9739992925e31ea2b4b4e3b3b45363e",
+          "size_bytes": 285360
+        }
+      ]
+    },
+    {
+      "id": 430691216,
+      "tag": "skull-meshes-v1-20261027-controlled-001",
+      "name": "controlled 1",
+      "url": "https://github.com/kaikwanlau/PhyloSDF/releases/tag/skull-meshes-v1-20261027-controlled-001",
+      "published_at": "2026-11-02T10:44:20Z",
+      "updated_at": "2026-11-02T10:44:20Z",
+      "stl_count": 900,
+      "total_stl_bytes": 8208084600,
+      "manifests": [
+        {
+          "filename": "mesh_manifest__8d0b9d8dc6123159.csv",
+          "url": "https://github.com/kaikwanlau/PhyloSDF/releases/download/skull-meshes-v1-20261027-controlled-001/mesh_manifest__8d0b9d8dc6123159.csv",
+          "sha256": "sha256:8d0b9d8dc6123159968c1140090d3185798ccdab7cd6961d428b8382ba7d1463",
+          "size_bytes": 567700
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "matched_cfm_grounded_inputs_v1",
+  "backup_folder_id": "local-input-b0912f1141277cbb",
+  "files": [
+    {
+      "path": "inputs/best.pt",
+      "name": "best.pt",
+      "drive_id": "local-input-c1120b4cc1a2a83a",
+      "size_bytes": 6629569,
+      "sha256": "1ef3c02743e54dca2bc1507b5e2d25c48ea9dad59087778646a54679ca72abc4"
+    },
+    {
+      "path": "inputs/final.pt",
+      "name": "final.pt",
+      "drive_id": "local-input-a994ebfa381bea48",
+      "size_bytes": 6629599,
+      "sha256": "d73acbdd6bd2836a352ad3e7434699292577492f813c9f305769115362cc69c7"
+    },
+    {
+      "path": "inputs/bbox_dims.npy",
+      "name": "bbox_dims.npy",
+      "drive_id": "local-input-9cb5074381807d04",
+      "size_bytes": 1328,
+      "sha256": "a78646ada4522005ba86cd7dd0ded2de7b85fdc16721337070db388e3ab82060"
+    },
+    {
+      "path": "inputs/species_indices.npy",
+      "name": "species_indices.npy",
+      "drive_id": "local-input-a7246c327dc95dcf",
+      "size_bytes": 928,
+      "sha256": "8bdb6c1bba4c62587ee41a0d347ce9fe9ff200e3e1219059e848bacee522c561"
+    },
+    {
+      "path": "inputs/phylo_embeddings.npy",
+      "name": "phylo_embeddings.npy",
+      "drive_id": "local-input-514a380d504736ba",
+      "size_bytes": 3200,
+      "sha256": "8da719aca26994a8de2773e9471ab6ac2dcff5d5209219e5aa05268d77e04e6e"
+    },
+    {
+      "path": "inputs/phylo_dist.npy",
+      "name": "phylo_dist.npy",
+      "drive_id": "local-input-c7026251678b18ec",
+      "size_bytes": 2432,
+      "sha256": "5587ae53432b09162902425286c73183877c8faf687e14e73ac6a422878097f8"
+    },
+    {
+      "path": "inputs/metadata.json",
+      "name": "metadata.json",
+      "drive_id": "local-input-41846c5c0cc6202c",
+      "size_bytes": 38492,
+      "sha256": "728d43803c407618d10f33a0ca860f58440db7219ff21568d50ec33523d9bc2c"
+    },
+    {
+      "path": "vendor/augmentation.py",
+      "name": "augmentation.py",
+      "size_bytes": 11833,
+      "sha256": "af0328c6ba6c7f7d10a31e70d09a39783b4657ead162438a7540f6d4c9dd4648",
+      "drive_id": "local-input-16efa5e2177dd990"
+    },
+    {
+      "path": "vendor/diffusion.py",
+      "name": "diffusion.py",
+      "size_bytes": 11000,
+      "sha256": "53a16039dcb6e56e73d07a55a50c22862f8af9c0fecdcc54c01cb50e5d367426",
+      "drive_id": "local-input-483bc62584e5ad79"
+    },
+    {
+      "path": "vendor/deepsdf.py",
+      "name": "deepsdf.py",
+      "size_bytes": 4789,
+      "sha256": "2526b8a129066179805a76930ee3286e597b9c6888d69d39b249061950245b51"
+    }
+  ],
+  "metadata_species_order": "explicit species_to_idx from frozen metadata; species_indices.npy checked by specimen order",
+  "matrix": "saved historical labelled taxonomy proxy unchanged; not molecular phylogeny",
+  "paired_latents": "read latent_lib_state_dict from each corresponding best.pt/final.pt checkpoint",
+  "storage_reference_policy": "Private remote-storage URLs, file/folder identifiers and transfer references are omitted. Legacy identifier fields use local-only aliases; original input and mesh checksums are retained."
+}

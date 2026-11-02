@@ -1,0 +1,75 @@
+{
+  "schema": "matched_cfm_independent_study_source_and_inputs_v1",
+  "files": {
+    "INPUT_MANIFEST.json": {
+      "sha256": "9751b17ed25f237d585f1e0097a66c45606b5ff55f731936675b636e9221bf92",
+      "size_bytes": 2856
+    },
+    "README.md": {
+      "sha256": "5af22b060082682e3b0a4c0c4069ea44d94a261659162a04ce68075a6262677d",
+      "size_bytes": 4618
+    },
+    "download_inputs.py": {
+      "sha256": "76afaec698ce4326848c9845e51474bf5a71bfa017ed8d02a79a7796ce1ef763",
+      "size_bytes": 2784
+    },
+    "inputs/bbox_dims.npy": {
+      "sha256": "a78646ada4522005ba86cd7dd0ded2de7b85fdc16721337070db388e3ab82060",
+      "size_bytes": 1328
+    },
+    "inputs/best.pt": {
+      "sha256": "1ef3c02743e54dca2bc1507b5e2d25c48ea9dad59087778646a54679ca72abc4",
+      "size_bytes": 6629569
+    },
+    "inputs/final.pt": {
+      "sha256": "d73acbdd6bd2836a352ad3e7434699292577492f813c9f305769115362cc69c7",
+      "size_bytes": 6629599
+    },
+    "inputs/metadata.json": {
+      "sha256": "728d43803c407618d10f33a0ca860f58440db7219ff21568d50ec33523d9bc2c",
+      "size_bytes": 38492
+    },
+    "inputs/phylo_dist.npy": {
+      "sha256": "5587ae53432b09162902425286c73183877c8faf687e14e73ac6a422878097f8",
+      "size_bytes": 2432
+    },
+    "inputs/phylo_embeddings.npy": {
+      "sha256": "8da719aca26994a8de2773e9471ab6ac2dcff5d5209219e5aa05268d77e04e6e",
+      "size_bytes": 3200
+    },
+    "inputs/species_indices.npy": {
+      "sha256": "8bdb6c1bba4c62587ee41a0d347ce9fe9ff200e3e1219059e848bacee522c561",
+      "size_bytes": 928
+    },
+    "resume_state.py": {
+      "sha256": "40915646f624010893c4ee0b42bc607291a1b7b972e256d93bc066a62a73369b",
+      "size_bytes": 6625
+    },
+    "run_matched_cfm.py": {
+      "sha256": "c8460c4f7e25e17303bc39ded356cd6fb966ee2e9c83a7d0f1b88181916ad305",
+      "size_bytes": 29906
+    },
+    "test_matched_cfm.py": {
+      "sha256": "54ff23ea27032c6a95549fc35d3d7d9a00c4d756045e8a980cc8e99c4e7995e4",
+      "size_bytes": 10792
+    },
+    "test_resume_state.py": {
+      "sha256": "31f57f5016a79eea07411faf98fd8c59ae64a24cc433ac9596cca19d3dfdd659",
+      "size_bytes": 6748
+    },
+    "vendor/augmentation.py": {
+      "sha256": "af0328c6ba6c7f7d10a31e70d09a39783b4657ead162438a7540f6d4c9dd4648",
+      "size_bytes": 11833
+    },
+    "vendor/deepsdf.py": {
+      "sha256": "2526b8a129066179805a76930ee3286e597b9c6888d69d39b249061950245b51",
+      "size_bytes": 4789
+    },
+    "vendor/diffusion.py": {
+      "sha256": "53a16039dcb6e56e73d07a55a50c22862f8af9c0fecdcc54c01cb50e5d367426",
+      "size_bytes": 11000
+    }
+  },
+  "runtime_tests": "pending exact CPU Colab execution; local syntax checks passed",
+  "research_drive_mutated": false
+}

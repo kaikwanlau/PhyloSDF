@@ -1,0 +1,45 @@
+{
+  "description": "Archived scientific-source hashes are retained. Private storage locators are redacted in the distributed sampler and helper; distributed_sha256 records current bytes. run.py uses local inputs.",
+  "sources": [
+    {
+      "path": "tree_sampler_comparison.py",
+      "sha256": "adc6a38734e620c022cdacafcaf6ce54b26c23a771e9e3d52738ef0ea7358360",
+      "archive_source": "20261024T092558_preflight_and_source_a73602021a5b.zip/source/tree_sampler_comparison.py",
+      "distributed_sha256": "65429ea6f60264fc8cde9a59a0d3ca7979c33e19c3c582a7f62432bf056680f0",
+      "distributed_bytes": 31663
+    },
+    {
+      "path": "rep_helper.py",
+      "sha256": "11c6dd7834a3182ff39f7a54006aa6517068dad6b98b427d4a03707490ef8aeb",
+      "archive_source": "20261024T092558_preflight_and_source_a73602021a5b.zip/source/rep_helper.py",
+      "distributed_sha256": "a1fc416657f2cc754aec6ec0fdc7b8f140cf119f356f5c5a19b0444ddcc967a1",
+      "distributed_bytes": 81117
+    },
+    {
+      "path": "tree_comparison_postprocess.py",
+      "sha256": "714115ff44d571795cb8c6240aa655deddff153d899b8cb7c6c68ac22c8639a9",
+      "archive_source": "20261024T135008_cpu_1nna_postprocess_complete_3e4df19ce37a.zip/results/postprocess/tree_comparison_postprocess.py"
+    }
+  ],
+  "archived_protocol_and_source_sha256": "baf9cfeac56e907d4dcf67e7d42dc89e8c0068bdf0ce05f35e8c2e776524f4aa",
+  "locked_dependencies": {
+    "matched/matched_cfm/run_matched_cfm.py": "c8460c4f7e25e17303bc39ded356cd6fb966ee2e9c83a7d0f1b88181916ad305",
+    "matched/matched_cfm/vendor/diffusion.py": "53a16039dcb6e56e73d07a55a50c22862f8af9c0fecdcc54c01cb50e5d367426",
+    "mesh/new_mesh_metrics/vendor/vendor_metrics.py": "8593738444873209c45d9b7ec3cd5f2afa36fb9758f09b3b8e1c3ed538e63f91",
+    "tree_results/work/beta_tree/deepsdf/final.pt": "4ed5a0bcd13bc1ee38bc3da0b8bbfce133e6096635a2e8837c27c8c10317c44f",
+    "tree_results/work/beta_tree/deepsdf/CODES.npz": "0975d6569fbe31a248b3e5b5c61c99b5f3e2ee077b8e219274e2569893d69c01",
+    "tree_sampler_comparison.py": "adc6a38734e620c022cdacafcaf6ce54b26c23a771e9e3d52738ef0ea7358360",
+    "rep_helper.py": "11c6dd7834a3182ff39f7a54006aa6517068dad6b98b427d4a03707490ef8aeb"
+  },
+  "recorded_runtime": {
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "trimesh": "4.7.4",
+    "scikit-image": "0.25.2"
+  },
+  "storage_reference_policy": "Private remote-storage URLs, file/folder identifiers and transfer references are omitted. Legacy identifier fields use local-only aliases; original input and mesh checksums are retained.",
+  "distribution_note": "sha256 fields retain archival identities. distributed_sha256 records current repository bytes after private storage-locator redaction; scientific input and mesh fingerprints are unchanged."
+}

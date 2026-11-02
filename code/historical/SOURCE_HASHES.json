@@ -1,0 +1,102 @@
+{
+  "description": "Selective authentic source supporting the historical claims still cited in the main text. No checkpoint, metric-results payload, sweep or unrelated model family is included.",
+  "files": [
+    {
+      "path": "loso/12_leave_one_species_out.py",
+      "sha256": "4b56a86dc0b5842b1659f4c0a42843e57f36fd26adb0ca44550bb5b4d82fbefb",
+      "bytes": 5927,
+      "role": "original latent-centroid diagnostic",
+      "source_path": "analysis/ai_paper_pack/audit/original_legacy/legacy_code/12_leave_one_species_out.py",
+      "source_drive_url": null,
+      "source_drive_id": "local-input-05916cc6bf9a91bc",
+      "preservation": "byte-identical original"
+    },
+    {
+      "path": "loso/models/utils.py",
+      "sha256": "2a11423b062a04d13826f8861d6d9dd271ac9a622b13c497f51c7c8b5b3bbe56",
+      "bytes": 10936,
+      "role": "original config/seed utilities required by LOSO",
+      "source_path": "analysis/ai_paper_pack/audit/original_legacy/legacy_code/models/utils.py",
+      "source_drive_url": null,
+      "source_drive_id": "local-input-58fa4f25222bbf5a",
+      "preservation": "byte-identical original"
+    },
+    {
+      "path": "loso/config.yaml",
+      "sha256": "6c0d78981a5f48b6c19f1c1d9dc2a16ca85445b60719681b88e22509371c0d1f",
+      "bytes": 2128,
+      "role": "original source config; not recovered runtime proof",
+      "source_path": "analysis/ai_paper_pack/audit/original_legacy/legacy_code/config.yaml",
+      "source_drive_url": null,
+      "source_drive_id": "local-input-1aafa3cc117045d5",
+      "preservation": "byte-identical original"
+    },
+    {
+      "path": "79_21/decoder_training.py",
+      "sha256": "6646453897e8c50b285145f03e2a6e66344f01e9160eee6a97c400ba2ea6ba6d",
+      "bytes": 14517,
+      "role": "original older retrospective 79/21 study source",
+      "source_path": "analysis/ai_paper_pack/primary/TRAINING79_21_CODE_COMPANION.txt",
+      "source_companion_sha256": "1c6e5316b1c4e593ca22d9d2e6f027341a059177df95de605e8a7cf08ffceb56",
+      "source_line_start": 534,
+      "source_drive_url": null,
+      "preservation": "byte-identical original recovered from bounded companion section",
+      "separator_added_final_bytes_removed": 2
+    },
+    {
+      "path": "79_21/generator.py",
+      "sha256": "4d23c331e127c8eb6cb11cf76adf3c9e5789bc5bb9320db20feafe2d323f1dd5",
+      "bytes": 18365,
+      "role": "original older retrospective 79/21 study source",
+      "source_path": "analysis/ai_paper_pack/primary/TRAINING79_21_CODE_COMPANION.txt",
+      "source_companion_sha256": "1c6e5316b1c4e593ca22d9d2e6f027341a059177df95de605e8a7cf08ffceb56",
+      "source_line_start": 158,
+      "source_drive_url": null,
+      "preservation": "byte-identical original recovered from bounded companion section",
+      "separator_added_final_bytes_removed": 2
+    },
+    {
+      "path": "79_21/metrics.py",
+      "sha256": "324fa5214288638a4d3d3a49a2c0954972c84875c101ff3dcdfe6c07e8f1ec0f",
+      "bytes": 30113,
+      "role": "original older retrospective 79/21 study source",
+      "source_path": "analysis/ai_paper_pack/primary/TRAINING79_21_CODE_COMPANION.txt",
+      "source_companion_sha256": "1c6e5316b1c4e593ca22d9d2e6f027341a059177df95de605e8a7cf08ffceb56",
+      "source_line_start": 1442,
+      "source_drive_url": null,
+      "preservation": "byte-identical original recovered from bounded companion section",
+      "separator_added_final_bytes_removed": 1
+    }
+  ],
+  "shared_original_dependencies": [
+    {
+      "original_name": "deepsdf.py",
+      "repository_path": "code/vendor/matched_cfm/vendor/deepsdf.py",
+      "sha256": "2526b8a129066179805a76930ee3286e597b9c6888d69d39b249061950245b51",
+      "source_drive_url": null,
+      "note": "same original bytes already included; not duplicated"
+    },
+    {
+      "original_name": "vendor_metrics.py",
+      "repository_path": "code/vendor/new_mesh_metrics/vendor/vendor_metrics.py",
+      "sha256": "8593738444873209c45d9b7ec3cd5f2afa36fb9758f09b3b8e1c3ed538e63f91",
+      "source_drive_url": null,
+      "note": "same original bytes already included; not duplicated"
+    },
+    {
+      "original_name": "original_config.yaml",
+      "repository_path": "code/historical/loso/config.yaml",
+      "sha256": "6c0d78981a5f48b6c19f1c1d9dc2a16ca85445b60719681b88e22509371c0d1f",
+      "source_drive_url": null,
+      "note": "same original bytes already included; not duplicated"
+    }
+  ],
+  "local_support_files": [
+    {
+      "path": "loso/models/__init__.py",
+      "sha256": "96cb2206ea45912589489198beed383229b2e2ff365238bce3083f5f3d94e437",
+      "role": "new package marker avoiding imports of unrelated legacy model families"
+    }
+  ],
+  "storage_reference_policy": "Private remote-storage URLs, file/folder identifiers and transfer references are omitted. Legacy identifier fields use local-only aliases; original input and mesh checksums are retained."
+}

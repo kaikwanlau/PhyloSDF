@@ -1,0 +1,62 @@
+{
+  "description": "Two saved anatomical-audit examples from the proxy/component study. These measurement-grid meshes are distinct from the dated-tree main comparison and the high-resolution figure cohort. They are not asserted to match the exact re-extracted meshes rendered in Figures 8 or 9.",
+  "coordinates": "millimetres; the source archive already applied the specimen scale for decoded real skulls and the mean within-species scale for generated skulls. No further centering, scaling, remeshing, repair or component selection was applied during packaging.",
+  "source_archive": {
+    "file": "PhyloSDF__anatomical_validation__s42-s43-s44__snapshot-2026-10-20.zip",
+    "drive_file_id": "local-input-824d807622fc1fc6",
+    "url": null,
+    "sha256": "31ee76b98d79605d939b3c8ec9c645faa8d83299012927a17af7df90dd60b13f"
+  },
+  "source_extraction": {
+    "pad": 1.1,
+    "para": 60,
+    "density_factor": 0.65,
+    "saved_groups": [
+      "decoded_real_p60",
+      "pooled_residual__s42"
+    ]
+  },
+  "meshes": [
+    {
+      "file": "pooled_residual__s42/pooled_residual__s42__conditional_C.Parvulus__slot000.npz",
+      "source_member": "meshes/pooled_residual__s42/pooled_residual__s42__conditional_C.Parvulus__slot000.npz",
+      "sha256": "3828e2f327b3c1275017b568fe10b7ba5404aab18469db2d4325dc04dbbf0320",
+      "vertices": 3832,
+      "faces": 7664,
+      "units": "mm",
+      "cohort": "conditional_C.Parvulus",
+      "seed": 42,
+      "slot": 0,
+      "species": "C.Parvulus"
+    },
+    {
+      "file": "pooled_residual__s42/pooled_residual__s42__conditional_G.Fortis__slot000.npz",
+      "source_member": "meshes/pooled_residual__s42/pooled_residual__s42__conditional_G.Fortis__slot000.npz",
+      "sha256": "083f1215dde342b2bdd22f23ab39e17110b648a53f409d719c9f2ca0a583ea77",
+      "vertices": 3410,
+      "faces": 6820,
+      "units": "mm",
+      "cohort": "conditional_G.Fortis",
+      "seed": 42,
+      "slot": 0,
+      "species": "G.Fortis"
+    }
+  ],
+  "stl_examples": [
+    {
+      "file": "stl_examples/conditional_C.Parvulus__slot000.stl",
+      "derived_from": "pooled_residual__s42/pooled_residual__s42__conditional_C.Parvulus__slot000.npz",
+      "conversion": "binary STL; original float32 triangle coordinates retained",
+      "sha256": "2f31cbb23d5885fee14286b06a3f580945160f68dd974478d474b850449aa697",
+      "units": "mm"
+    },
+    {
+      "file": "stl_examples/conditional_G.Fortis__slot000.stl",
+      "derived_from": "pooled_residual__s42/pooled_residual__s42__conditional_G.Fortis__slot000.npz",
+      "conversion": "binary STL; original float32 triangle coordinates retained",
+      "sha256": "b354b8ca91f132d304f387369b2194159faf93d5b220d9a335513b22bd4aec93",
+      "units": "mm"
+    }
+  ],
+  "storage_reference_policy": "Private remote-storage URLs, file/folder identifiers and transfer references are omitted. Legacy identifier fields use local-only aliases; original input and mesh checksums are retained."
+}

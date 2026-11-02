@@ -1,0 +1,78 @@
+{
+  "files": [
+    {
+      "path": "matched_cfm/INPUT_MANIFEST.json",
+      "sha256": "9751b17ed25f237d585f1e0097a66c45606b5ff55f731936675b636e9221bf92",
+      "distributed_sha256": "2b031e1525ed79e33c77a081c42a3a036a0613c63546132b75992ee9adb018ac",
+      "distributed_bytes": 3026
+    },
+    {
+      "path": "matched_cfm/SOURCE_MANIFEST.json",
+      "sha256": "dbfc83803ca8a1a162422c2f479e4de120b003c9305a7d01dc632173f5922438"
+    },
+    {
+      "path": "matched_cfm/inputs/metadata.json",
+      "sha256": "728d43803c407618d10f33a0ca860f58440db7219ff21568d50ec33523d9bc2c"
+    },
+    {
+      "path": "matched_cfm/resume_state.py",
+      "sha256": "40915646f624010893c4ee0b42bc607291a1b7b972e256d93bc066a62a73369b"
+    },
+    {
+      "path": "matched_cfm/run_matched_cfm.py",
+      "sha256": "c8460c4f7e25e17303bc39ded356cd6fb966ee2e9c83a7d0f1b88181916ad305"
+    },
+    {
+      "path": "matched_cfm/vendor/augmentation.py",
+      "sha256": "af0328c6ba6c7f7d10a31e70d09a39783b4657ead162438a7540f6d4c9dd4648"
+    },
+    {
+      "path": "matched_cfm/vendor/deepsdf.py",
+      "sha256": "2526b8a129066179805a76930ee3286e597b9c6888d69d39b249061950245b51"
+    },
+    {
+      "path": "matched_cfm/vendor/diffusion.py",
+      "sha256": "53a16039dcb6e56e73d07a55a50c22862f8af9c0fecdcc54c01cb50e5d367426"
+    },
+    {
+      "path": "new_mesh_metrics/SOURCE_MANIFEST.json",
+      "sha256": "5be910f6645fc560edb69253a7ce7065b0c990c1f9d3e07a229415b183ffc1a5"
+    },
+    {
+      "path": "new_mesh_metrics/grounded/probe_source/frozen/benchmark.py",
+      "sha256": "9724e70376f955b63b4eb582eb2bb93be3164ccc7a14deb92b44760d0d3cdac4"
+    },
+    {
+      "path": "new_mesh_metrics/grounded/probe_source/frozen/deepsdf.py",
+      "sha256": "2526b8a129066179805a76930ee3286e597b9c6888d69d39b249061950245b51"
+    },
+    {
+      "path": "new_mesh_metrics/grounded/probe_source/frozen/runtime_backend.py",
+      "sha256": "23e3aaf981c96b2983d4190544d329fcbfec40cfe34a87f65088b43a3c48f7f2"
+    },
+    {
+      "path": "new_mesh_metrics/vendor/reference_manifest.json",
+      "sha256": "72797b733028ac9893b258922ec912fbacf2f9b461bb0b7ee15f12e5f4e5d73b",
+      "distributed_sha256": "a17ed3eff7472cbc8f2a110dbe80072b1f0c7bd392b731725c3e3b02edf35292",
+      "distributed_bytes": 130818
+    },
+    {
+      "path": "new_mesh_metrics/vendor/vendor_metrics.py",
+      "sha256": "8593738444873209c45d9b7ec3cd5f2afa36fb9758f09b3b8e1c3ed538e63f91"
+    }
+  ],
+  "archives": [
+    {
+      "id": "local-input-4547bb9fdfe0aaff",
+      "archive": "matched_cfm_source_and_inputs_20261018_v1.zip",
+      "sha256": "93f2dc31651f900981076010a6a039bd84314434c41270fbdf64e97551cef169"
+    },
+    {
+      "id": "local-input-84ff5aba929ef1c4",
+      "archive": "new_matched_mesh800_source_20261018_v1.zip",
+      "sha256": "30e17ce1efa4a478e5253b29f9885f4b2f3999a1b1ea27599550dc2220577eb7"
+    }
+  ],
+  "storage_reference_policy": "Private remote-storage URLs, file/folder identifiers and transfer references are omitted. Legacy identifier fields use local-only aliases; original input and mesh checksums are retained.",
+  "distribution_note": "sha256 fields retain archival identities. distributed_sha256 records current repository bytes after private storage-locator redaction; scientific input and mesh fingerprints are unchanged."
+}

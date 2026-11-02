@@ -1,0 +1,1559 @@
+{
+  "num_specimens": 100,
+  "num_species": 24,
+  "species_to_idx": {
+    "C.Pallidus": 0,
+    "C.Parvulus": 1,
+    "C.Psittacula": 2,
+    "C.flaveola": 3,
+    "C2.Fusca": 4,
+    "C2.Olivacea": 5,
+    "E.campestris": 6,
+    "G.Conirostris": 7,
+    "G.Difficilis": 8,
+    "G.Fortis": 9,
+    "G.Fuliginosa": 10,
+    "G.Magnirostris": 11,
+    "G.Scandens": 12,
+    "G.Septentrionalist": 13,
+    "L.anoxanthus": 14,
+    "L.noctis": 15,
+    "L.portoricensis": 16,
+    "L.violacea": 17,
+    "M.nigra": 18,
+    "P.Crassirostris": 19,
+    "P2.Inornata": 20,
+    "T.Bicolor": 21,
+    "T.canora": 22,
+    "T.olivacea": 23
+  },
+  "idx_to_species": {
+    "0": "C.Pallidus",
+    "1": "C.Parvulus",
+    "2": "C.Psittacula",
+    "3": "C.flaveola",
+    "4": "C2.Fusca",
+    "5": "C2.Olivacea",
+    "6": "E.campestris",
+    "7": "G.Conirostris",
+    "8": "G.Difficilis",
+    "9": "G.Fortis",
+    "10": "G.Fuliginosa",
+    "11": "G.Magnirostris",
+    "12": "G.Scandens",
+    "13": "G.Septentrionalist",
+    "14": "L.anoxanthus",
+    "15": "L.noctis",
+    "16": "L.portoricensis",
+    "17": "L.violacea",
+    "18": "M.nigra",
+    "19": "P.Crassirostris",
+    "20": "P2.Inornata",
+    "21": "T.Bicolor",
+    "22": "T.canora",
+    "23": "T.olivacea"
+  },
+  "num_sdf_samples": 100000,
+  "specimens": [
+    {
+      "filename": "C.PallidusA",
+      "species": "C.Pallidus",
+      "num_vertices": 2105,
+      "num_faces": 4206,
+      "is_watertight": true,
+      "sdf_min": -0.15242430567741394,
+      "sdf_max": 1.3163764476776123,
+      "species_idx": 0,
+      "bbox_dims": [
+        26.496112823486328,
+        15.334639549255371,
+        15.15832233428955
+      ]
+    },
+    {
+      "filename": "C.PallidusB",
+      "species": "C.Pallidus",
+      "num_vertices": 2605,
+      "num_faces": 5214,
+      "is_watertight": true,
+      "sdf_min": -0.2965301275253296,
+      "sdf_max": 1.3279658555984497,
+      "species_idx": 0,
+      "bbox_dims": [
+        24.954891204833984,
+        14.926009178161621,
+        13.871829986572266
+      ]
+    },
+    {
+      "filename": "C.PallidusC",
+      "species": "C.Pallidus",
+      "num_vertices": 3146,
+      "num_faces": 6288,
+      "is_watertight": true,
+      "sdf_min": -0.13764165341854095,
+      "sdf_max": 1.2911262512207031,
+      "species_idx": 0,
+      "bbox_dims": [
+        24.954994201660156,
+        14.926071166992188,
+        13.871888160705566
+      ]
+    },
+    {
+      "filename": "C.PallidusD",
+      "species": "C.Pallidus",
+      "num_vertices": 3147,
+      "num_faces": 6290,
+      "is_watertight": true,
+      "sdf_min": -0.1471395492553711,
+      "sdf_max": 1.3165216445922852,
+      "species_idx": 0,
+      "bbox_dims": [
+        24.482097625732422,
+        15.753777503967285,
+        15.648098945617676
+      ]
+    },
+    {
+      "filename": "C.ParvulusA",
+      "species": "C.Parvulus",
+      "num_vertices": 3647,
+      "num_faces": 7294,
+      "is_watertight": true,
+      "sdf_min": -0.36785590648651123,
+      "sdf_max": 1.2215847969055176,
+      "species_idx": 1,
+      "bbox_dims": [
+        29.408775329589844,
+        18.660337448120117,
+        17.912612915039062
+      ]
+    },
+    {
+      "filename": "C.ParvulusB",
+      "species": "C.Parvulus",
+      "num_vertices": 3010,
+      "num_faces": 6016,
+      "is_watertight": true,
+      "sdf_min": -0.1667584776878357,
+      "sdf_max": 1.2529340982437134,
+      "species_idx": 1,
+      "bbox_dims": [
+        28.575349807739258,
+        17.407167434692383,
+        16.443836212158203
+      ]
+    },
+    {
+      "filename": "C.ParvulusC",
+      "species": "C.Parvulus",
+      "num_vertices": 2663,
+      "num_faces": 5326,
+      "is_watertight": true,
+      "sdf_min": -0.3447872996330261,
+      "sdf_max": 1.2173349857330322,
+      "species_idx": 1,
+      "bbox_dims": [
+        28.381916046142578,
+        16.269420623779297,
+        15.257869720458984
+      ]
+    },
+    {
+      "filename": "C.ParvulusD",
+      "species": "C.Parvulus",
+      "num_vertices": 2666,
+      "num_faces": 5332,
+      "is_watertight": true,
+      "sdf_min": -0.3447670340538025,
+      "sdf_max": 1.23247492313385,
+      "species_idx": 1,
+      "bbox_dims": [
+        28.12360191345215,
+        16.116239547729492,
+        15.394715309143066
+      ]
+    },
+    {
+      "filename": "C.ParvulusE",
+      "species": "C.Parvulus",
+      "num_vertices": 3811,
+      "num_faces": 7618,
+      "is_watertight": true,
+      "sdf_min": -0.3928276598453522,
+      "sdf_max": 1.192313313484192,
+      "species_idx": 1,
+      "bbox_dims": [
+        24.786680221557617,
+        13.976941108703613,
+        12.625439643859863
+      ]
+    },
+    {
+      "filename": "C.PsittaculaA",
+      "species": "C.Psittacula",
+      "num_vertices": 3866,
+      "num_faces": 7728,
+      "is_watertight": true,
+      "sdf_min": -0.1924082338809967,
+      "sdf_max": 1.2294193506240845,
+      "species_idx": 2,
+      "bbox_dims": [
+        25.146865844726562,
+        13.382391929626465,
+        12.058603286743164
+      ]
+    },
+    {
+      "filename": "C.PsittaculaB",
+      "species": "C.Psittacula",
+      "num_vertices": 2988,
+      "num_faces": 5972,
+      "is_watertight": true,
+      "sdf_min": -0.15583398938179016,
+      "sdf_max": 1.2805066108703613,
+      "species_idx": 2,
+      "bbox_dims": [
+        26.861536026000977,
+        14.279736518859863,
+        12.507780075073242
+      ]
+    },
+    {
+      "filename": "C.PsittaculaC",
+      "species": "C.Psittacula",
+      "num_vertices": 2413,
+      "num_faces": 4830,
+      "is_watertight": true,
+      "sdf_min": -0.33087438344955444,
+      "sdf_max": 1.2533648014068604,
+      "species_idx": 2,
+      "bbox_dims": [
+        25.989511489868164,
+        14.086777687072754,
+        11.688623428344727
+      ]
+    },
+    {
+      "filename": "C.PsittaculaD",
+      "species": "C.Psittacula",
+      "num_vertices": 2738,
+      "num_faces": 5480,
+      "is_watertight": true,
+      "sdf_min": -0.32037708163261414,
+      "sdf_max": 1.2452991008758545,
+      "species_idx": 2,
+      "bbox_dims": [
+        27.04900360107422,
+        13.985115051269531,
+        12.094316482543945
+      ]
+    },
+    {
+      "filename": "C.flaveolaA",
+      "species": "C.flaveola",
+      "num_vertices": 1956,
+      "num_faces": 3908,
+      "is_watertight": true,
+      "sdf_min": -0.24996627867221832,
+      "sdf_max": 1.3352643251419067,
+      "species_idx": 3,
+      "bbox_dims": [
+        33.21549987792969,
+        17.38239860534668,
+        16.795804977416992
+      ]
+    },
+    {
+      "filename": "C.flaveolaB",
+      "species": "C.flaveola",
+      "num_vertices": 2111,
+      "num_faces": 4218,
+      "is_watertight": true,
+      "sdf_min": -0.2619563639163971,
+      "sdf_max": 1.363072395324707,
+      "species_idx": 3,
+      "bbox_dims": [
+        32.92900085449219,
+        16.971269607543945,
+        15.724266052246094
+      ]
+    },
+    {
+      "filename": "C.flaveolaC",
+      "species": "C.flaveola",
+      "num_vertices": 1895,
+      "num_faces": 3786,
+      "is_watertight": true,
+      "sdf_min": -0.2651962339878082,
+      "sdf_max": 1.341024398803711,
+      "species_idx": 3,
+      "bbox_dims": [
+        33.028785705566406,
+        17.05496597290039,
+        15.780712127685547
+      ]
+    },
+    {
+      "filename": "C.flaveolaD",
+      "species": "C.flaveola",
+      "num_vertices": 1817,
+      "num_faces": 3630,
+      "is_watertight": true,
+      "sdf_min": -0.10898814350366592,
+      "sdf_max": 1.3259342908859253,
+      "species_idx": 3,
+      "bbox_dims": [
+        33.02882766723633,
+        17.05498695373535,
+        15.780713081359863
+      ]
+    },
+    {
+      "filename": "C.flaveolaE",
+      "species": "C.flaveola",
+      "num_vertices": 2343,
+      "num_faces": 4682,
+      "is_watertight": true,
+      "sdf_min": -0.2329399436712265,
+      "sdf_max": 1.3673292398452759,
+      "species_idx": 3,
+      "bbox_dims": [
+        25.448856353759766,
+        15.80423641204834,
+        15.550211906433105
+      ]
+    },
+    {
+      "filename": "C2.FuscaA",
+      "species": "C2.Fusca",
+      "num_vertices": 1013,
+      "num_faces": 2022,
+      "is_watertight": true,
+      "sdf_min": -0.3309191167354584,
+      "sdf_max": 1.3189102411270142,
+      "species_idx": 4,
+      "bbox_dims": [
+        33.96495056152344,
+        18.267929077148438,
+        16.693437576293945
+      ]
+    },
+    {
+      "filename": "C2.FuscaB",
+      "species": "C2.Fusca",
+      "num_vertices": 2371,
+      "num_faces": 4738,
+      "is_watertight": true,
+      "sdf_min": -0.2722717523574829,
+      "sdf_max": 1.336872935295105,
+      "species_idx": 4,
+      "bbox_dims": [
+        35.83479690551758,
+        17.51788902282715,
+        15.815438270568848
+      ]
+    },
+    {
+      "filename": "C2.OlivaceaA",
+      "species": "C2.Olivacea",
+      "num_vertices": 2961,
+      "num_faces": 5918,
+      "is_watertight": true,
+      "sdf_min": -0.10204098373651505,
+      "sdf_max": 1.376376986503601,
+      "species_idx": 5,
+      "bbox_dims": [
+        35.17198181152344,
+        20.047632217407227,
+        18.742229461669922
+      ]
+    },
+    {
+      "filename": "C2.OlivaceaB",
+      "species": "C2.Olivacea",
+      "num_vertices": 3523,
+      "num_faces": 7042,
+      "is_watertight": true,
+      "sdf_min": -0.09534004330635071,
+      "sdf_max": 1.3517266511917114,
+      "species_idx": 5,
+      "bbox_dims": [
+        35.66744613647461,
+        19.637971878051758,
+        18.321998596191406
+      ]
+    },
+    {
+      "filename": "C2.OlivaceaC",
+      "species": "C2.Olivacea",
+      "num_vertices": 2279,
+      "num_faces": 4558,
+      "is_watertight": true,
+      "sdf_min": -0.26709142327308655,
+      "sdf_max": 1.3429020643234253,
+      "species_idx": 5,
+      "bbox_dims": [
+        35.96568298339844,
+        19.96612548828125,
+        18.719871520996094
+      ]
+    },
+    {
+      "filename": "E.campestrisA",
+      "species": "E.campestris",
+      "num_vertices": 2459,
+      "num_faces": 4922,
+      "is_watertight": true,
+      "sdf_min": -0.24553976953029633,
+      "sdf_max": 1.2962185144424438,
+      "species_idx": 6,
+      "bbox_dims": [
+        32.58732986450195,
+        18.10894203186035,
+        18.349254608154297
+      ]
+    },
+    {
+      "filename": "E.campestrisB",
+      "species": "E.campestris",
+      "num_vertices": 2236,
+      "num_faces": 4468,
+      "is_watertight": true,
+      "sdf_min": -0.26382341980934143,
+      "sdf_max": 1.3370453119277954,
+      "species_idx": 6,
+      "bbox_dims": [
+        35.650325775146484,
+        20.152915954589844,
+        19.172788619995117
+      ]
+    },
+    {
+      "filename": "E.campestrisC",
+      "species": "E.campestris",
+      "num_vertices": 2512,
+      "num_faces": 5028,
+      "is_watertight": true,
+      "sdf_min": -0.25489097833633423,
+      "sdf_max": 1.3361068964004517,
+      "species_idx": 6,
+      "bbox_dims": [
+        27.6419734954834,
+        15.433545112609863,
+        15.209096908569336
+      ]
+    },
+    {
+      "filename": "E.campestrisD",
+      "species": "E.campestris",
+      "num_vertices": 2885,
+      "num_faces": 5766,
+      "is_watertight": true,
+      "sdf_min": -0.11545109748840332,
+      "sdf_max": 1.3320735692977905,
+      "species_idx": 6,
+      "bbox_dims": [
+        27.31078338623047,
+        15.331369400024414,
+        16.678735733032227
+      ]
+    },
+    {
+      "filename": "E.campestrisE",
+      "species": "E.campestris",
+      "num_vertices": 2408,
+      "num_faces": 4812,
+      "is_watertight": true,
+      "sdf_min": -0.25882261991500854,
+      "sdf_max": 1.314087152481079,
+      "species_idx": 6,
+      "bbox_dims": [
+        30.9116268157959,
+        16.94328498840332,
+        16.627182006835938
+      ]
+    },
+    {
+      "filename": "G.ConirostrisA",
+      "species": "G.Conirostris",
+      "num_vertices": 2752,
+      "num_faces": 5508,
+      "is_watertight": true,
+      "sdf_min": -0.2908734381198883,
+      "sdf_max": 1.2916970252990723,
+      "species_idx": 7,
+      "bbox_dims": [
+        31.299545288085938,
+        17.624324798583984,
+        16.615942001342773
+      ]
+    },
+    {
+      "filename": "G.ConirostrisB",
+      "species": "G.Conirostris",
+      "num_vertices": 1516,
+      "num_faces": 3028,
+      "is_watertight": true,
+      "sdf_min": -0.2923443913459778,
+      "sdf_max": 1.2999731302261353,
+      "species_idx": 7,
+      "bbox_dims": [
+        33.17464065551758,
+        19.659265518188477,
+        18.980680465698242
+      ]
+    },
+    {
+      "filename": "G.ConirostrisC",
+      "species": "G.Conirostris",
+      "num_vertices": 5755,
+      "num_faces": 11514,
+      "is_watertight": true,
+      "sdf_min": -0.12390681356191635,
+      "sdf_max": 1.2347681522369385,
+      "species_idx": 7,
+      "bbox_dims": [
+        31.535274505615234,
+        18.094078063964844,
+        18.975431442260742
+      ]
+    },
+    {
+      "filename": "G.ConirostrisD",
+      "species": "G.Conirostris",
+      "num_vertices": 3118,
+      "num_faces": 6240,
+      "is_watertight": true,
+      "sdf_min": -0.29008948802948,
+      "sdf_max": 1.2582108974456787,
+      "species_idx": 7,
+      "bbox_dims": [
+        29.586673736572266,
+        16.166284561157227,
+        15.897130012512207
+      ]
+    },
+    {
+      "filename": "G.ConirostrisE",
+      "species": "G.Conirostris",
+      "num_vertices": 2489,
+      "num_faces": 4974,
+      "is_watertight": true,
+      "sdf_min": -0.30074790120124817,
+      "sdf_max": 1.2338200807571411,
+      "species_idx": 7,
+      "bbox_dims": [
+        26.860279083251953,
+        15.458115577697754,
+        14.171733856201172
+      ]
+    },
+    {
+      "filename": "G.ConirostrisF",
+      "species": "G.Conirostris",
+      "num_vertices": 4146,
+      "num_faces": 8288,
+      "is_watertight": true,
+      "sdf_min": -0.1433846354484558,
+      "sdf_max": 1.227894902229309,
+      "species_idx": 7,
+      "bbox_dims": [
+        26.691726684570312,
+        15.47384262084961,
+        14.136261940002441
+      ]
+    },
+    {
+      "filename": "G.ConirostrisG",
+      "species": "G.Conirostris",
+      "num_vertices": 3440,
+      "num_faces": 6876,
+      "is_watertight": true,
+      "sdf_min": -0.16150134801864624,
+      "sdf_max": 1.2579421997070312,
+      "species_idx": 7,
+      "bbox_dims": [
+        24.85548973083496,
+        15.685118675231934,
+        16.036819458007812
+      ]
+    },
+    {
+      "filename": "G.DifficilisA",
+      "species": "G.Difficilis",
+      "num_vertices": 2873,
+      "num_faces": 5742,
+      "is_watertight": true,
+      "sdf_min": -0.3200027048587799,
+      "sdf_max": 1.2763181924819946,
+      "species_idx": 8,
+      "bbox_dims": [
+        26.42925453186035,
+        15.34732437133789,
+        14.396963119506836
+      ]
+    },
+    {
+      "filename": "G.DifficilisB",
+      "species": "G.Difficilis",
+      "num_vertices": 1177,
+      "num_faces": 2350,
+      "is_watertight": true,
+      "sdf_min": -0.3650507628917694,
+      "sdf_max": 1.2684667110443115,
+      "species_idx": 8,
+      "bbox_dims": [
+        26.734119415283203,
+        14.838144302368164,
+        14.21523380279541
+      ]
+    },
+    {
+      "filename": "G.FortisA",
+      "species": "G.Fortis",
+      "num_vertices": 4314,
+      "num_faces": 8624,
+      "is_watertight": true,
+      "sdf_min": -0.14634867012500763,
+      "sdf_max": 1.2488726377487183,
+      "species_idx": 9,
+      "bbox_dims": [
+        25.540700912475586,
+        15.480178833007812,
+        16.18115234375
+      ]
+    },
+    {
+      "filename": "G.FortisB",
+      "species": "G.Fortis",
+      "num_vertices": 3330,
+      "num_faces": 6664,
+      "is_watertight": true,
+      "sdf_min": -0.3147497773170471,
+      "sdf_max": 1.225719690322876,
+      "species_idx": 9,
+      "bbox_dims": [
+        37.77647399902344,
+        24.031553268432617,
+        20.255352020263672
+      ]
+    },
+    {
+      "filename": "G.FortisC",
+      "species": "G.Fortis",
+      "num_vertices": 3315,
+      "num_faces": 6634,
+      "is_watertight": true,
+      "sdf_min": -0.3081231117248535,
+      "sdf_max": 1.1914600133895874,
+      "species_idx": 9,
+      "bbox_dims": [
+        36.92746353149414,
+        23.516075134277344,
+        19.86689567565918
+      ]
+    },
+    {
+      "filename": "G.FortisD",
+      "species": "G.Fortis",
+      "num_vertices": 2940,
+      "num_faces": 5884,
+      "is_watertight": true,
+      "sdf_min": -0.3241789638996124,
+      "sdf_max": 1.2071267366409302,
+      "species_idx": 9,
+      "bbox_dims": [
+        36.00376892089844,
+        24.266738891601562,
+        21.714204788208008
+      ]
+    },
+    {
+      "filename": "G.FortisE",
+      "species": "G.Fortis",
+      "num_vertices": 3288,
+      "num_faces": 6572,
+      "is_watertight": true,
+      "sdf_min": -0.1485103815793991,
+      "sdf_max": 1.2548574209213257,
+      "species_idx": 9,
+      "bbox_dims": [
+        37.069496154785156,
+        23.85102081298828,
+        23.007429122924805
+      ]
+    },
+    {
+      "filename": "G.FuliginosaA",
+      "species": "G.Fuliginosa",
+      "num_vertices": 2417,
+      "num_faces": 4838,
+      "is_watertight": true,
+      "sdf_min": -0.34288185834884644,
+      "sdf_max": 1.2338167428970337,
+      "species_idx": 10,
+      "bbox_dims": [
+        37.498924255371094,
+        23.108388900756836,
+        21.055561065673828
+      ]
+    },
+    {
+      "filename": "G.FuliginosaB",
+      "species": "G.Fuliginosa",
+      "num_vertices": 3273,
+      "num_faces": 6546,
+      "is_watertight": true,
+      "sdf_min": -0.32911941409111023,
+      "sdf_max": 1.2267498970031738,
+      "species_idx": 10,
+      "bbox_dims": [
+        34.89886474609375,
+        17.156633377075195,
+        14.983153343200684
+      ]
+    },
+    {
+      "filename": "G.FuliginosaC",
+      "species": "G.Fuliginosa",
+      "num_vertices": 3968,
+      "num_faces": 7932,
+      "is_watertight": true,
+      "sdf_min": -0.1597672700881958,
+      "sdf_max": 1.2444897890090942,
+      "species_idx": 10,
+      "bbox_dims": [
+        34.87108612060547,
+        17.745908737182617,
+        15.789655685424805
+      ]
+    },
+    {
+      "filename": "G.FuliginosaD",
+      "species": "G.Fuliginosa",
+      "num_vertices": 3494,
+      "num_faces": 6984,
+      "is_watertight": true,
+      "sdf_min": -0.14634950459003448,
+      "sdf_max": 1.2742851972579956,
+      "species_idx": 10,
+      "bbox_dims": [
+        30.262744903564453,
+        16.390247344970703,
+        15.294159889221191
+      ]
+    },
+    {
+      "filename": "G.FuliginosaE",
+      "species": "G.Fuliginosa",
+      "num_vertices": 2920,
+      "num_faces": 5844,
+      "is_watertight": true,
+      "sdf_min": -0.32285791635513306,
+      "sdf_max": 1.3118040561676025,
+      "species_idx": 10,
+      "bbox_dims": [
+        30.66552734375,
+        16.150157928466797,
+        14.770782470703125
+      ]
+    },
+    {
+      "filename": "G.FuliginosaF",
+      "species": "G.Fuliginosa",
+      "num_vertices": 2876,
+      "num_faces": 5752,
+      "is_watertight": true,
+      "sdf_min": -0.3495868742465973,
+      "sdf_max": 1.2595772743225098,
+      "species_idx": 10,
+      "bbox_dims": [
+        30.477048873901367,
+        18.167125701904297,
+        17.234424591064453
+      ]
+    },
+    {
+      "filename": "G.MagnirostrisA",
+      "species": "G.Magnirostris",
+      "num_vertices": 2618,
+      "num_faces": 5232,
+      "is_watertight": true,
+      "sdf_min": -0.21070507168769836,
+      "sdf_max": 1.1819382905960083,
+      "species_idx": 11,
+      "bbox_dims": [
+        31.681652069091797,
+        18.081207275390625,
+        17.073680877685547
+      ]
+    },
+    {
+      "filename": "G.MagnirostrisB",
+      "species": "G.Magnirostris",
+      "num_vertices": 1989,
+      "num_faces": 3974,
+      "is_watertight": true,
+      "sdf_min": -0.34444674849510193,
+      "sdf_max": 1.1761029958724976,
+      "species_idx": 11,
+      "bbox_dims": [
+        31.401782989501953,
+        18.727550506591797,
+        16.775068283081055
+      ]
+    },
+    {
+      "filename": "G.MagnirostrisC",
+      "species": "G.Magnirostris",
+      "num_vertices": 3498,
+      "num_faces": 6992,
+      "is_watertight": true,
+      "sdf_min": -0.1902262270450592,
+      "sdf_max": 1.1762796640396118,
+      "species_idx": 11,
+      "bbox_dims": [
+        32.631919860839844,
+        19.144977569580078,
+        17.21769905090332
+      ]
+    },
+    {
+      "filename": "G.MagnirostrisD",
+      "species": "G.Magnirostris",
+      "num_vertices": 2762,
+      "num_faces": 5520,
+      "is_watertight": true,
+      "sdf_min": -0.3418252468109131,
+      "sdf_max": 1.1446980237960815,
+      "species_idx": 11,
+      "bbox_dims": [
+        27.569541931152344,
+        13.760966300964355,
+        14.320283889770508
+      ]
+    },
+    {
+      "filename": "G.MagnirostrisE",
+      "species": "G.Magnirostris",
+      "num_vertices": 2579,
+      "num_faces": 5154,
+      "is_watertight": true,
+      "sdf_min": -0.3159995377063751,
+      "sdf_max": 1.1654187440872192,
+      "species_idx": 11,
+      "bbox_dims": [
+        27.554920196533203,
+        13.741684913635254,
+        13.89346694946289
+      ]
+    },
+    {
+      "filename": "G.ScandensA",
+      "species": "G.Scandens",
+      "num_vertices": 2638,
+      "num_faces": 5280,
+      "is_watertight": true,
+      "sdf_min": -0.270803302526474,
+      "sdf_max": 1.3165502548217773,
+      "species_idx": 12,
+      "bbox_dims": [
+        27.784896850585938,
+        13.074989318847656,
+        11.911356925964355
+      ]
+    },
+    {
+      "filename": "G.ScandensB",
+      "species": "G.Scandens",
+      "num_vertices": 2619,
+      "num_faces": 5242,
+      "is_watertight": true,
+      "sdf_min": -0.2626185119152069,
+      "sdf_max": 1.3393138647079468,
+      "species_idx": 12,
+      "bbox_dims": [
+        26.48240852355957,
+        12.738422393798828,
+        11.572667121887207
+      ]
+    },
+    {
+      "filename": "G.SeptentrionalistA",
+      "species": "G.Septentrionalist",
+      "num_vertices": 2447,
+      "num_faces": 4890,
+      "is_watertight": true,
+      "sdf_min": -0.2982122004032135,
+      "sdf_max": 1.2557048797607422,
+      "species_idx": 13,
+      "bbox_dims": [
+        26.63080596923828,
+        12.631824493408203,
+        12.474126815795898
+      ]
+    },
+    {
+      "filename": "G.SeptentrionalistB",
+      "species": "G.Septentrionalist",
+      "num_vertices": 3084,
+      "num_faces": 6172,
+      "is_watertight": true,
+      "sdf_min": -0.2847229242324829,
+      "sdf_max": 1.2967650890350342,
+      "species_idx": 13,
+      "bbox_dims": [
+        28.237201690673828,
+        13.355453491210938,
+        11.809920310974121
+      ]
+    },
+    {
+      "filename": "L.anoxanthusA",
+      "species": "L.anoxanthus",
+      "num_vertices": 3695,
+      "num_faces": 7386,
+      "is_watertight": true,
+      "sdf_min": -0.331998348236084,
+      "sdf_max": 1.2219352722167969,
+      "species_idx": 14,
+      "bbox_dims": [
+        28.417264938354492,
+        13.429102897644043,
+        11.798685073852539
+      ]
+    },
+    {
+      "filename": "L.anoxanthusB",
+      "species": "L.anoxanthus",
+      "num_vertices": 2879,
+      "num_faces": 5758,
+      "is_watertight": true,
+      "sdf_min": -0.327138751745224,
+      "sdf_max": 1.2096227407455444,
+      "species_idx": 14,
+      "bbox_dims": [
+        31.279085159301758,
+        14.578740119934082,
+        13.530449867248535
+      ]
+    },
+    {
+      "filename": "L.anoxanthusC",
+      "species": "L.anoxanthus",
+      "num_vertices": 2778,
+      "num_faces": 5556,
+      "is_watertight": true,
+      "sdf_min": -0.32211941480636597,
+      "sdf_max": 1.1939505338668823,
+      "species_idx": 14,
+      "bbox_dims": [
+        31.166288375854492,
+        14.920727729797363,
+        13.765691757202148
+      ]
+    },
+    {
+      "filename": "L.anoxanthusD",
+      "species": "L.anoxanthus",
+      "num_vertices": 1635,
+      "num_faces": 3266,
+      "is_watertight": true,
+      "sdf_min": -0.34961530566215515,
+      "sdf_max": 1.2097055912017822,
+      "species_idx": 14,
+      "bbox_dims": [
+        30.553098678588867,
+        14.306830406188965,
+        13.884888648986816
+      ]
+    },
+    {
+      "filename": "L.anoxanthusE",
+      "species": "L.anoxanthus",
+      "num_vertices": 3068,
+      "num_faces": 6132,
+      "is_watertight": true,
+      "sdf_min": -0.3066636025905609,
+      "sdf_max": 1.2136743068695068,
+      "species_idx": 14,
+      "bbox_dims": [
+        29.556676864624023,
+        14.223228454589844,
+        13.223026275634766
+      ]
+    },
+    {
+      "filename": "L.noctisA",
+      "species": "L.noctis",
+      "num_vertices": 4337,
+      "num_faces": 8670,
+      "is_watertight": true,
+      "sdf_min": -0.15649190545082092,
+      "sdf_max": 1.205580472946167,
+      "species_idx": 15,
+      "bbox_dims": [
+        29.292736053466797,
+        14.054849624633789,
+        12.703551292419434
+      ]
+    },
+    {
+      "filename": "L.noctisB",
+      "species": "L.noctis",
+      "num_vertices": 2057,
+      "num_faces": 4110,
+      "is_watertight": true,
+      "sdf_min": -0.3116702735424042,
+      "sdf_max": 1.232785701751709,
+      "species_idx": 15,
+      "bbox_dims": [
+        24.171363830566406,
+        13.491233825683594,
+        13.439882278442383
+      ]
+    },
+    {
+      "filename": "L.noctisC",
+      "species": "L.noctis",
+      "num_vertices": 3000,
+      "num_faces": 5996,
+      "is_watertight": true,
+      "sdf_min": -0.15068353712558746,
+      "sdf_max": 1.2687103748321533,
+      "species_idx": 15,
+      "bbox_dims": [
+        23.606172561645508,
+        13.551295280456543,
+        12.812455177307129
+      ]
+    },
+    {
+      "filename": "L.noctisE",
+      "species": "L.noctis",
+      "num_vertices": 2965,
+      "num_faces": 5934,
+      "is_watertight": true,
+      "sdf_min": -0.3171044886112213,
+      "sdf_max": 1.2489776611328125,
+      "species_idx": 15,
+      "bbox_dims": [
+        23.600784301757812,
+        13.583867073059082,
+        12.764111518859863
+      ]
+    },
+    {
+      "filename": "L.portoricensisA",
+      "species": "L.portoricensis",
+      "num_vertices": 2870,
+      "num_faces": 5736,
+      "is_watertight": true,
+      "sdf_min": -0.3202141225337982,
+      "sdf_max": 1.188393235206604,
+      "species_idx": 16,
+      "bbox_dims": [
+        24.090469360351562,
+        13.575390815734863,
+        13.43177318572998
+      ]
+    },
+    {
+      "filename": "L.portoricensisB",
+      "species": "L.portoricensis",
+      "num_vertices": 2358,
+      "num_faces": 4720,
+      "is_watertight": true,
+      "sdf_min": -0.3196185827255249,
+      "sdf_max": 1.1971427202224731,
+      "species_idx": 16,
+      "bbox_dims": [
+        24.060302734375,
+        13.49003791809082,
+        12.45313835144043
+      ]
+    },
+    {
+      "filename": "L.portoricensisC",
+      "species": "L.portoricensis",
+      "num_vertices": 1890,
+      "num_faces": 3776,
+      "is_watertight": true,
+      "sdf_min": -0.32485827803611755,
+      "sdf_max": 1.2126996517181396,
+      "species_idx": 16,
+      "bbox_dims": [
+        28.698671340942383,
+        15.080951690673828,
+        15.042797088623047
+      ]
+    },
+    {
+      "filename": "L.portoricensisD",
+      "species": "L.portoricensis",
+      "num_vertices": 2910,
+      "num_faces": 5820,
+      "is_watertight": true,
+      "sdf_min": -0.32566484808921814,
+      "sdf_max": 1.1616523265838623,
+      "species_idx": 16,
+      "bbox_dims": [
+        28.593759536743164,
+        15.203709602355957,
+        15.196330070495605
+      ]
+    },
+    {
+      "filename": "L.portoricensisE",
+      "species": "L.portoricensis",
+      "num_vertices": 2055,
+      "num_faces": 4106,
+      "is_watertight": true,
+      "sdf_min": -0.31587401032447815,
+      "sdf_max": 1.1973603963851929,
+      "species_idx": 16,
+      "bbox_dims": [
+        28.627798080444336,
+        14.744569778442383,
+        14.576815605163574
+      ]
+    },
+    {
+      "filename": "L.violaceaA",
+      "species": "L.violacea",
+      "num_vertices": 3422,
+      "num_faces": 6848,
+      "is_watertight": true,
+      "sdf_min": -0.3175017535686493,
+      "sdf_max": 1.1467798948287964,
+      "species_idx": 17,
+      "bbox_dims": [
+        27.723201751708984,
+        15.141212463378906,
+        14.897704124450684
+      ]
+    },
+    {
+      "filename": "L.violaceaB",
+      "species": "L.violacea",
+      "num_vertices": 1737,
+      "num_faces": 3470,
+      "is_watertight": true,
+      "sdf_min": -0.33920198678970337,
+      "sdf_max": 1.1715084314346313,
+      "species_idx": 17,
+      "bbox_dims": [
+        32.658447265625,
+        18.772186279296875,
+        18.490718841552734
+      ]
+    },
+    {
+      "filename": "L.violaceaC",
+      "species": "L.violacea",
+      "num_vertices": 1730,
+      "num_faces": 3456,
+      "is_watertight": true,
+      "sdf_min": -0.33799946308135986,
+      "sdf_max": 1.1893184185028076,
+      "species_idx": 17,
+      "bbox_dims": [
+        33.96281051635742,
+        18.895631790161133,
+        19.2606143951416
+      ]
+    },
+    {
+      "filename": "L.violaceaD",
+      "species": "L.violacea",
+      "num_vertices": 1744,
+      "num_faces": 3484,
+      "is_watertight": true,
+      "sdf_min": -0.33033818006515503,
+      "sdf_max": 1.194227695465088,
+      "species_idx": 17,
+      "bbox_dims": [
+        32.950843811035156,
+        18.953330993652344,
+        18.706031799316406
+      ]
+    },
+    {
+      "filename": "L.violaceaE",
+      "species": "L.violacea",
+      "num_vertices": 3929,
+      "num_faces": 7854,
+      "is_watertight": true,
+      "sdf_min": -0.15672437846660614,
+      "sdf_max": 1.1882317066192627,
+      "species_idx": 17,
+      "bbox_dims": [
+        31.792064666748047,
+        19.41594696044922,
+        18.332382202148438
+      ]
+    },
+    {
+      "filename": "M.nigraA",
+      "species": "M.nigra",
+      "num_vertices": 2541,
+      "num_faces": 5078,
+      "is_watertight": true,
+      "sdf_min": -0.3396577835083008,
+      "sdf_max": 1.1988533735275269,
+      "species_idx": 18,
+      "bbox_dims": [
+        33.41100311279297,
+        17.98713493347168,
+        17.944917678833008
+      ]
+    },
+    {
+      "filename": "M.nigraC",
+      "species": "M.nigra",
+      "num_vertices": 3236,
+      "num_faces": 6468,
+      "is_watertight": true,
+      "sdf_min": -0.16433730721473694,
+      "sdf_max": 1.1786116361618042,
+      "species_idx": 18,
+      "bbox_dims": [
+        31.857316970825195,
+        17.963712692260742,
+        17.213293075561523
+      ]
+    },
+    {
+      "filename": "M.nigraD",
+      "species": "M.nigra",
+      "num_vertices": 3167,
+      "num_faces": 6330,
+      "is_watertight": true,
+      "sdf_min": -0.1544436514377594,
+      "sdf_max": 1.2316917181015015,
+      "species_idx": 18,
+      "bbox_dims": [
+        31.72319221496582,
+        18.459030151367188,
+        17.82516860961914
+      ]
+    },
+    {
+      "filename": "M.nigraE",
+      "species": "M.nigra",
+      "num_vertices": 2805,
+      "num_faces": 5606,
+      "is_watertight": true,
+      "sdf_min": -0.1485700011253357,
+      "sdf_max": 1.185749888420105,
+      "species_idx": 18,
+      "bbox_dims": [
+        31.339977264404297,
+        17.48798942565918,
+        16.994224548339844
+      ]
+    },
+    {
+      "filename": "P.CrassirostrisB",
+      "species": "P.Crassirostris",
+      "num_vertices": 3244,
+      "num_faces": 6492,
+      "is_watertight": true,
+      "sdf_min": -0.32395508885383606,
+      "sdf_max": 1.1642597913742065,
+      "species_idx": 19,
+      "bbox_dims": [
+        33.587440490722656,
+        18.38327407836914,
+        18.143749237060547
+      ]
+    },
+    {
+      "filename": "P.CrassirostrisC",
+      "species": "P.Crassirostris",
+      "num_vertices": 3529,
+      "num_faces": 7062,
+      "is_watertight": true,
+      "sdf_min": -0.322173535823822,
+      "sdf_max": 1.1852898597717285,
+      "species_idx": 19,
+      "bbox_dims": [
+        32.11229705810547,
+        17.76274871826172,
+        17.227893829345703
+      ]
+    },
+    {
+      "filename": "P.CrassirostrisD",
+      "species": "P.Crassirostris",
+      "num_vertices": 3281,
+      "num_faces": 6566,
+      "is_watertight": true,
+      "sdf_min": -0.3248709738254547,
+      "sdf_max": 1.1546943187713623,
+      "species_idx": 19,
+      "bbox_dims": [
+        27.32343101501465,
+        15.096240997314453,
+        15.316404342651367
+      ]
+    },
+    {
+      "filename": "P.CrassirostrisE",
+      "species": "P.Crassirostris",
+      "num_vertices": 3248,
+      "num_faces": 6500,
+      "is_watertight": true,
+      "sdf_min": -0.3230920433998108,
+      "sdf_max": 1.1998307704925537,
+      "species_idx": 19,
+      "bbox_dims": [
+        27.125062942504883,
+        14.705215454101562,
+        15.157970428466797
+      ]
+    },
+    {
+      "filename": "P2.InornataA",
+      "species": "P2.Inornata",
+      "num_vertices": 2151,
+      "num_faces": 4298,
+      "is_watertight": true,
+      "sdf_min": -0.28398171067237854,
+      "sdf_max": 1.3077716827392578,
+      "species_idx": 20,
+      "bbox_dims": [
+        27.216506958007812,
+        14.392592430114746,
+        15.006132125854492
+      ]
+    },
+    {
+      "filename": "P2.InornataB",
+      "species": "P2.Inornata",
+      "num_vertices": 2296,
+      "num_faces": 4588,
+      "is_watertight": true,
+      "sdf_min": -0.2761882245540619,
+      "sdf_max": 1.3225524425506592,
+      "species_idx": 20,
+      "bbox_dims": [
+        26.51556968688965,
+        14.666757583618164,
+        14.488958358764648
+      ]
+    },
+    {
+      "filename": "T.BicolorA",
+      "species": "T.Bicolor",
+      "num_vertices": 5302,
+      "num_faces": 10600,
+      "is_watertight": true,
+      "sdf_min": -0.18422289192676544,
+      "sdf_max": 1.1946179866790771,
+      "species_idx": 21,
+      "bbox_dims": [
+        21.649635314941406,
+        14.159708023071289,
+        13.272028923034668
+      ]
+    },
+    {
+      "filename": "T.BicolorB",
+      "species": "T.Bicolor",
+      "num_vertices": 2993,
+      "num_faces": 5986,
+      "is_watertight": true,
+      "sdf_min": -0.3724398910999298,
+      "sdf_max": 1.1975760459899902,
+      "species_idx": 21,
+      "bbox_dims": [
+        21.798076629638672,
+        13.725000381469727,
+        13.779637336730957
+      ]
+    },
+    {
+      "filename": "T.BicolorC",
+      "species": "T.Bicolor",
+      "num_vertices": 3937,
+      "num_faces": 7870,
+      "is_watertight": true,
+      "sdf_min": -0.3891929090023041,
+      "sdf_max": 1.1799546480178833,
+      "species_idx": 21,
+      "bbox_dims": [
+        21.611902236938477,
+        13.475446701049805,
+        14.035443305969238
+      ]
+    },
+    {
+      "filename": "T.BicolorD",
+      "species": "T.Bicolor",
+      "num_vertices": 3265,
+      "num_faces": 6534,
+      "is_watertight": true,
+      "sdf_min": -0.3549844026565552,
+      "sdf_max": 1.253887414932251,
+      "species_idx": 21,
+      "bbox_dims": [
+        22.1527042388916,
+        13.790419578552246,
+        13.052870750427246
+      ]
+    },
+    {
+      "filename": "T.BicolorE",
+      "species": "T.Bicolor",
+      "num_vertices": 2963,
+      "num_faces": 5922,
+      "is_watertight": true,
+      "sdf_min": -0.1477263867855072,
+      "sdf_max": 1.2549583911895752,
+      "species_idx": 21,
+      "bbox_dims": [
+        23.079734802246094,
+        14.832598686218262,
+        14.0955810546875
+      ]
+    },
+    {
+      "filename": "T.canoraA",
+      "species": "T.canora",
+      "num_vertices": 3444,
+      "num_faces": 6892,
+      "is_watertight": true,
+      "sdf_min": -0.35436874628067017,
+      "sdf_max": 1.1923433542251587,
+      "species_idx": 22,
+      "bbox_dims": [
+        20.215377807617188,
+        12.388683319091797,
+        11.636874198913574
+      ]
+    },
+    {
+      "filename": "T.canoraB",
+      "species": "T.canora",
+      "num_vertices": 4752,
+      "num_faces": 9500,
+      "is_watertight": true,
+      "sdf_min": -0.1543344408273697,
+      "sdf_max": 1.1839908361434937,
+      "species_idx": 22,
+      "bbox_dims": [
+        23.079734802246094,
+        13.646571159362793,
+        12.715502738952637
+      ]
+    },
+    {
+      "filename": "T.canoraC",
+      "species": "T.canora",
+      "num_vertices": 4141,
+      "num_faces": 8278,
+      "is_watertight": true,
+      "sdf_min": -0.15116646885871887,
+      "sdf_max": 1.2366235256195068,
+      "species_idx": 22,
+      "bbox_dims": [
+        20.775400161743164,
+        12.585073471069336,
+        11.34701919555664
+      ]
+    },
+    {
+      "filename": "T.canoraD",
+      "species": "T.canora",
+      "num_vertices": 3099,
+      "num_faces": 6194,
+      "is_watertight": true,
+      "sdf_min": -0.1519109308719635,
+      "sdf_max": 1.2515439987182617,
+      "species_idx": 22,
+      "bbox_dims": [
+        20.37129783630371,
+        12.229728698730469,
+        11.459067344665527
+      ]
+    },
+    {
+      "filename": "T.canoraE",
+      "species": "T.canora",
+      "num_vertices": 2802,
+      "num_faces": 5604,
+      "is_watertight": true,
+      "sdf_min": -0.30385419726371765,
+      "sdf_max": 1.2457398176193237,
+      "species_idx": 22,
+      "bbox_dims": [
+        21.859588623046875,
+        12.49915599822998,
+        11.026687622070312
+      ]
+    },
+    {
+      "filename": "T.olivaceaB",
+      "species": "T.olivacea",
+      "num_vertices": 3102,
+      "num_faces": 6200,
+      "is_watertight": true,
+      "sdf_min": -0.14824925363063812,
+      "sdf_max": 1.2383923530578613,
+      "species_idx": 23,
+      "bbox_dims": [
+        21.952329635620117,
+        13.117520332336426,
+        11.464268684387207
+      ]
+    },
+    {
+      "filename": "T.olivaceaC",
+      "species": "T.olivacea",
+      "num_vertices": 2768,
+      "num_faces": 5532,
+      "is_watertight": true,
+      "sdf_min": -0.32566285133361816,
+      "sdf_max": 1.2155934572219849,
+      "species_idx": 23,
+      "bbox_dims": [
+        21.345674514770508,
+        12.395135879516602,
+        12.091194152832031
+      ]
+    },
+    {
+      "filename": "T.olivaceaD",
+      "species": "T.olivacea",
+      "num_vertices": 2522,
+      "num_faces": 5040,
+      "is_watertight": true,
+      "sdf_min": -0.30817800760269165,
+      "sdf_max": 1.2242480516433716,
+      "species_idx": 23,
+      "bbox_dims": [
+        22.890230178833008,
+        13.085347175598145,
+        12.328675270080566
+      ]
+    },
+    {
+      "filename": "T.olivaceaE",
+      "species": "T.olivacea",
+      "num_vertices": 3554,
+      "num_faces": 7104,
+      "is_watertight": true,
+      "sdf_min": -0.3115597367286682,
+      "sdf_max": 1.2238337993621826,
+      "species_idx": 23,
+      "bbox_dims": [
+        22.349863052368164,
+        12.86259937286377,
+        12.016946792602539
+      ]
+    }
+  ]
+}

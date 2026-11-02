@@ -1,0 +1,165 @@
+{
+  "description": "Twelve original saved high-resolution meshes from the final-model component study: pooled residual flow, seed 42, conditional slots 000-002 of each of four focal species. Original NPZ bytes are preserved.",
+  "coordinates": "Normalised decoder coordinates. Extracted on the endpoint-inclusive 256 cubed grid over [-1,1]^3. These are proxy/component-study meshes, separate from the dated-tree main-comparison cohort; no scaling, repair or component selection was applied during packaging.",
+  "source_archive": {
+    "file": "PhyloSDF__final_model_ablation__s42-s43-s44__snapshot-2026-10-20.zip",
+    "drive_file_id": "local-input-f27c04224b82ba4c",
+    "url": null,
+    "sha256": "edaf6a95837ce9b24b82b98b164bd6175503164042cdde4771bfb9ad63fd7beb"
+  },
+  "source_selection": "fm_engine.py keep_figure_meshes: seed==42, arm==pooled_residual, slots 0,1,2 for each focal species.",
+  "meshes": [
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_C.Parvulus__slot000.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_C.Parvulus__slot000.npz",
+      "sha256": "ddb3c1f8e21076b8751d079ac94371bd3f097c64c44ae15a15c890fa2c356df6",
+      "species": "C.Parvulus",
+      "cohort": "conditional_C.Parvulus",
+      "seed": 42,
+      "slot": 0,
+      "vertices": 115428,
+      "faces": 230856,
+      "coordinates": "normalised decoder frame"
+    },
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_C.Parvulus__slot001.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_C.Parvulus__slot001.npz",
+      "sha256": "b5d5814a159ff54db67adf0cbc9fd3ed2eb0f062b0b9114c3c30892587496499",
+      "species": "C.Parvulus",
+      "cohort": "conditional_C.Parvulus",
+      "seed": 42,
+      "slot": 1,
+      "vertices": 107964,
+      "faces": 215932,
+      "coordinates": "normalised decoder frame"
+    },
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_C.Parvulus__slot002.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_C.Parvulus__slot002.npz",
+      "sha256": "90d244c1afa5d30b3e6567e57d822e98b278c74470d0192bff690aa76381ad2d",
+      "species": "C.Parvulus",
+      "cohort": "conditional_C.Parvulus",
+      "seed": 42,
+      "slot": 2,
+      "vertices": 108221,
+      "faces": 216436,
+      "coordinates": "normalised decoder frame"
+    },
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fortis__slot000.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fortis__slot000.npz",
+      "sha256": "d8edb01b9c642e70131c1f1ab6b85d7175a57ec3924f71e4066ae5d504fc6083",
+      "species": "G.Fortis",
+      "cohort": "conditional_G.Fortis",
+      "seed": 42,
+      "slot": 0,
+      "vertices": 96884,
+      "faces": 193768,
+      "coordinates": "normalised decoder frame"
+    },
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fortis__slot001.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fortis__slot001.npz",
+      "sha256": "f3de5f19607dcfe9b5d26e8e5aebf1be6db58f86e86aac47a759ada7afb6e5de",
+      "species": "G.Fortis",
+      "cohort": "conditional_G.Fortis",
+      "seed": 42,
+      "slot": 1,
+      "vertices": 104404,
+      "faces": 208804,
+      "coordinates": "normalised decoder frame"
+    },
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fortis__slot002.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fortis__slot002.npz",
+      "sha256": "6e6defa719fea474909aad79e6885230c135878cc4c2b27abcc1493c3db8db0b",
+      "species": "G.Fortis",
+      "cohort": "conditional_G.Fortis",
+      "seed": 42,
+      "slot": 2,
+      "vertices": 95616,
+      "faces": 191228,
+      "coordinates": "normalised decoder frame"
+    },
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fuliginosa__slot000.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fuliginosa__slot000.npz",
+      "sha256": "0ac2b65330052adb9596ad08cedf6c58c41c607b2172438d14053600337b33ad",
+      "species": "G.Fuliginosa",
+      "cohort": "conditional_G.Fuliginosa",
+      "seed": 42,
+      "slot": 0,
+      "vertices": 114332,
+      "faces": 228660,
+      "coordinates": "normalised decoder frame"
+    },
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fuliginosa__slot001.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fuliginosa__slot001.npz",
+      "sha256": "cabd35acea1d6ff92e36a099e6ce27187eb484b544211cb169e5ff3827628f6b",
+      "species": "G.Fuliginosa",
+      "cohort": "conditional_G.Fuliginosa",
+      "seed": 42,
+      "slot": 1,
+      "vertices": 112464,
+      "faces": 224924,
+      "coordinates": "normalised decoder frame"
+    },
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fuliginosa__slot002.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Fuliginosa__slot002.npz",
+      "sha256": "f9deb297056348ceeb9c0af1e79caf09da466e1295c5dfb39ac02b2172d61696",
+      "species": "G.Fuliginosa",
+      "cohort": "conditional_G.Fuliginosa",
+      "seed": 42,
+      "slot": 2,
+      "vertices": 97300,
+      "faces": 194604,
+      "coordinates": "normalised decoder frame"
+    },
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Magnirostris__slot000.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Magnirostris__slot000.npz",
+      "sha256": "775700038103d93237fb6d27b1d3e9213833403a4c24ac1f42c8d3564fd75d64",
+      "species": "G.Magnirostris",
+      "cohort": "conditional_G.Magnirostris",
+      "seed": 42,
+      "slot": 0,
+      "vertices": 112570,
+      "faces": 225136,
+      "coordinates": "normalised decoder frame"
+    },
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Magnirostris__slot001.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Magnirostris__slot001.npz",
+      "sha256": "d18a816168323d5907952fa86d60c23ef8d15be4e88349f5208e6baaf7400b0b",
+      "species": "G.Magnirostris",
+      "cohort": "conditional_G.Magnirostris",
+      "seed": 42,
+      "slot": 1,
+      "vertices": 106957,
+      "faces": 213898,
+      "coordinates": "normalised decoder frame"
+    },
+    {
+      "file": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Magnirostris__slot002.npz",
+      "source_member": "results/figure_meshes/seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_G.Magnirostris__slot002.npz",
+      "sha256": "c850f600649afbdc2dfa80b960dbc0a8ab99d16b585332f9d8c4da76192e6342",
+      "species": "G.Magnirostris",
+      "cohort": "conditional_G.Magnirostris",
+      "seed": 42,
+      "slot": 2,
+      "vertices": 112929,
+      "faces": 225854,
+      "coordinates": "normalised decoder frame"
+    }
+  ],
+  "stl_example": {
+    "file": "example_C.Parvulus_slot000.stl",
+    "derived_from": "seed42_pooled_residual/fm__fm_pooled_residual_cfm__seed42__conditional_C.Parvulus__slot000.npz",
+    "sha256": "8c36cc3c5eff7edcc539606ef61b7480701314c5e73014cb279ee2cf9d4dd72a",
+    "conversion": "binary STL; original float32 triangle coordinates retained",
+    "coordinates": "normalised decoder frame; not millimetres"
+  },
+  "storage_reference_policy": "Private remote-storage URLs, file/folder identifiers and transfer references are omitted. Legacy identifier fields use local-only aliases; original input and mesh checksums are retained."
+}
